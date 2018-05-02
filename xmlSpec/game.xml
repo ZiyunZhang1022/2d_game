@@ -1,0 +1,149 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+<numberOfStons>10</numberOfStons>
+<maxFrames>300</maxFrames>
+<username>Ziyun Zhang</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>480</height>
+</world>
+
+<sea>
+  <file>assets/sea.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</sea>
+
+<hills>
+    <file>assets/hills.png</file>
+    <factor>1</factor>
+    <transparency>false</transparency>
+</hills>
+
+<font name="font">
+  <file>fonts/JazzScript2-Caps.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<textColor>
+    <red>212</red>
+    <green>120</green>
+    <blue>10</blue>
+    <alpha>0</alpha>
+</textColor>
+
+<SpinningStar>
+  <file>assets/spinstar.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <imageWidth>32</imageWidth>
+  <imageHeight>32</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+</SpinningStar>
+
+<rabbit>
+    <file>assets/rabbit.png</file>
+    <startLoc x="50" y="140"/>
+    <frames>2</frames>
+    <imageWidth>65</imageWidth>
+    <imageHeight>120</imageHeight>
+    <frameInterval>100</frameInterval>
+    <speedX>200</speedX>
+    <speedY>200</speedY>
+    <transparency>false</transparency>
+</rabbit>
+
+<twowayrabbit>
+    <file>assets/twoWayRabbit.png</file>
+    <startLoc x="20" y="140"/>
+    <frames>4</frames>
+    <imageWidth>65</imageWidth>
+    <imageHeight>80</imageHeight>
+    <frameInterval>100</frameInterval>
+    <speedX>200</speedX>
+    <speedY>200</speedY>
+    <transparency>false</transparency>
+</twowayrabbit>
+
+<bird>
+    <file>assets/birds.png</file>
+    <startLoc x="10" y="340"/>
+    <height>80 </height>
+    <frames>8</frames>
+    <imageWidth>72</imageWidth>
+    <imageHeight>72</imageHeight>
+    <frameInterval>100</frameInterval>
+    <speedX>200</speedX>
+    <speedY>200</speedY>
+    <transparency>false</transparency>
+    <bullet>Carrot</bullet>
+    <chunk>
+      <size>50</size>
+      <distance>100</distance>
+    </chunk>
+</bird>
+
+<Carrot>
+  <file>assets/carrot.png</file>
+  <interval>300</interval>
+  <distance>500</distance>
+  <startLoc x="100" y="100"/>
+  <minSpeedX>200</minSpeedX>
+  <speedX>300</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+  <transparency>true</transparency>
+  <frames>1</frames>
+  <imageWidth>29</imageWidth>
+  <imageHeight>18</imageHeight>
+  <frameInterval>200</frameInterval>
+</Carrot>
+
+<stone>
+  <file>assets/stone.png</file>
+  <startLoc x="400" y="140"/>
+  <speedX>199</speedX>
+  <speedY>199</speedY>
+  <safeDistance>150</safeDistance>
+  <transparency>false</transparency>
+  <chunk>
+    <size>50</size>
+    <distance>100</distance>
+   </chunk>
+</stone>
+
+<midhud>
+  <startLoc x="200" y="150"/>
+  <up>up</up>
+  <down>down</down>
+  <width>500</width>
+  <height>200</height>
+</midhud>
+
+<uprighthud>
+  <startLoc x="500" y="30"/>
+  <width>300</width>
+  <height>140</height>
+</uprighthud>
+
+</GameData>
