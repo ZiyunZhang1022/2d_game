@@ -1,4 +1,4 @@
-sprite.o: sprite.cpp sprite.h drawable.h /usr/include/SDL2/SDL.h \
+clock.o: clock.cpp clock.h /usr/include/SDL2/SDL.h \
  /usr/include/SDL2/SDL_main.h /usr/include/SDL2/SDL_stdinc.h \
  /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_platform.h \
  /usr/include/SDL2/begin_code.h /usr/include/SDL2/close_code.h \
@@ -19,13 +19,11 @@ sprite.o: sprite.cpp sprite.h drawable.h /usr/include/SDL2/SDL.h \
  /usr/include/SDL2/SDL_loadso.h /usr/include/SDL2/SDL_log.h \
  /usr/include/SDL2/SDL_messagebox.h /usr/include/SDL2/SDL_power.h \
  /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_system.h \
- /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h vector2f.h \
- image.h gamedata.h parseXML.h renderContext.h imageFactory.h \
- spriteSheet.h explodingSprite.h chunk.h
+ /usr/include/SDL2/SDL_timer.h /usr/include/SDL2/SDL_version.h gamedata.h \
+ vector2f.h parseXML.h ioMod.h /usr/include/SDL2/SDL_ttf.h \
+ /usr/include/SDL2/SDL.h
 
-sprite.h:
-
-drawable.h:
+clock.h:
 
 /usr/include/SDL2/SDL.h:
 
@@ -113,20 +111,14 @@ drawable.h:
 
 /usr/include/SDL2/SDL_version.h:
 
-vector2f.h:
-
-image.h:
-
 gamedata.h:
+
+vector2f.h:
 
 parseXML.h:
 
-renderContext.h:
+ioMod.h:
 
-imageFactory.h:
+/usr/include/SDL2/SDL_ttf.h:
 
-spriteSheet.h:
-
-explodingSprite.h:
-
-chunk.h:
+/usr/include/SDL2/SDL.h:

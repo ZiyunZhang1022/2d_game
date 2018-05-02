@@ -1,3 +1,5 @@
+#ifndef CLOCK_H
+#define CLOCK_H
 #include <SDL.h>
 #include <string>
 
@@ -43,3 +45,4 @@ private:
   Clock(const Clock&);
   Clock&operator=(const Clock&);
 };
+#endif
