@@ -1,3 +1,5 @@
+#ifndef ENGINE__H
+#define ENGINE__H
 #include <vector>
 #include <SDL.h>
 #include "ioMod.h"
@@ -66,3 +68,4 @@ private:
   void checkForCollisions();
   void checkShootCollisions();
 };
+#endif
