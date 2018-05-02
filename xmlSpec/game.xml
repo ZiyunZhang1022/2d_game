@@ -54,19 +54,19 @@
   <height>480</height>
   <noOfOptions>3</noOfOptions>
   <loc x="0" y="0"/>
-  <msg x="30" y="60"/>
+  <msg x="30" y="80"/>
   <optionLoc x="400" y="100" />
   <color r="193" g="205" b="205" a="255"/>
   <backColor r="72" g="95" b="119" a="255"/>
   <option0>Go to Game</option0>
-  <option1>No. of Stars</option1>
+  <option1>No. of Stones</option1>
   <option2>Help</option2>
   <spaces>70</spaces>
 </menu>
 
 <clickOn>
   <file>assets/boom2.png</file>
-  <startLoc x="340" y="170"/>
+  <startLoc x="340" y="160"/>
   <speedX>0</speedX>
   <speedY>0</speedY>
   <transparency>true</transparency>
@@ -74,7 +74,7 @@
 
 <clickOff>
   <file>assets/boom1.png</file>
-  <startLoc x="340" y="170"/>
+  <startLoc x="340" y="160"/>
   <speedX>0</speedX>
   <speedY>0</speedY>
   <transparency>true</transparency>

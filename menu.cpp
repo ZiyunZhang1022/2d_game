@@ -136,7 +136,7 @@ int Menu::getInputEventLoop() const {
       // In this section of the event loop we allow key bounce:
       drawBackground();
       io.writeText(msg, hudFrame.x+150, hudFrame.y+40);
-      io.writeText("Enter No. Stars: ", hudFrame.x+150, hudFrame.y+80);
+      io.writeText("Enter No. Stons: ", hudFrame.x+150, hudFrame.y+80);
       io.writeText(inNumber, hudFrame.x+330, hudFrame.y+80);
       SDL_RenderPresent(renderer);
     }

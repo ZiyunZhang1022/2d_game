@@ -45,4 +45,6 @@ private:
   Clock(const Clock&);
   Clock&operator=(const Clock&);
 };
+
 #endif
+
