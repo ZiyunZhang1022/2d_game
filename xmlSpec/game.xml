@@ -64,6 +64,22 @@
   <spaces>70</spaces>
 </menu>
 
+<clickOn>
+  <file>assets/boom2.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOn>
+
+<clickOff>
+  <file>assets/boom1.png</file>
+  <startLoc x="340" y="170"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</clickOff>
+
 <SpinningStar>
   <file>assets/spinstar.png</file>
   <startLoc x="50" y="140"/>

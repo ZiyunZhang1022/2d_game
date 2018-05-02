@@ -1,6 +1,7 @@
 #ifndef MENU__H
 #define MENU__H
 #include <string>
+#include <vector>
 #include "SDL.h"
 #include "gamedata.h"
 #include "clock.h"
