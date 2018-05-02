@@ -102,7 +102,7 @@ void Hud::draw(Vector2f position, int width, int height, int life, int points, i
       writeText("Not in god state", writeX, writeY);
     }
     writeY += 20;
-    writeText("pree 'R' to change god state", writeX, writeY);
+    writeText("pree 'G' to change god state", writeX, writeY);
 
 
   SDL_RenderFillRect( renderer, &r );
