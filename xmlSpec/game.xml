@@ -49,6 +49,21 @@
     <alpha>0</alpha>
 </textColor>
 
+<menu>
+  <width>854</width>
+  <height>480</height>
+  <noOfOptions>3</noOfOptions>
+  <loc x="0" y="0"/>
+  <msg x="30" y="60"/>
+  <optionLoc x="400" y="100" />
+  <color r="193" g="205" b="205" a="255"/>
+  <backColor r="72" g="95" b="119" a="255"/>
+  <option0>Go to Game</option0>
+  <option1>No. of Stars</option1>
+  <option2>Help</option2>
+  <spaces>70</spaces>
+</menu>
+
 <SpinningStar>
   <file>assets/spinstar.png</file>
   <startLoc x="50" y="140"/>

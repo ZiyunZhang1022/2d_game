@@ -49,6 +49,11 @@ Engine::Engine() :
   renderer( rc->getRenderer() ),
   sea("sea", Gamedata::getInstance().getXmlInt("sea/factor") ),
   hills("hills", Gamedata::getInstance().getXmlInt("hills/factor")),
+  menuEngine(),
+  menuMsgLoc(
+    Vector2f( Gamedata::getInstance().getXmlInt("menu/msg/x"), 
+              Gamedata::getInstance().getXmlInt("menu/msg/y") )
+  ),
   viewport( Viewport::getInstance() ),
   sprites(),
   lifes(3),
@@ -146,6 +151,7 @@ void Engine::draw() const {
     player -> draw();
   }
 }
+ io.writeText("Press 'm' for menu", menuMsgLoc[0], menuMsgLoc[1]);
   viewport.draw();
 
 
@@ -248,6 +254,19 @@ bool Engine::play() {
         }
         if ( keystate[SDL_SCANCODE_T] ) {
           switchSprite();
+        }
+        if ( keystate[SDL_SCANCODE_M] || keystate[SDL_SCANCODE_O] ) {
+          clock.pause();
+          menuEngine.play();
+          // I've left the next two statements here for your debugging:
+          // int option = menuEngine.getOptionChoice();
+          // std::cout << "OPTION: " << option << std::endl;
+          if ( menuEngine.starsOptionChosen() ) {
+            std::cout << "No of stones: " 
+                      << menuEngine.getNumStars() 
+                      << std::endl;
+          }
+          clock.unpause();
         }
         if ( keystate[SDL_SCANCODE_M] ) {
         currentStrategy = (1 + currentStrategy) % strategies.size();

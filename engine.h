@@ -6,6 +6,7 @@
 #include "viewport.h"
 #include "hud.h"
 #include "sound.h"
+#include "menuEngine.h"
 
 class CollisionStrategy;
 class SmartSprite;
@@ -29,6 +30,8 @@ private:
   SDL_Renderer * const renderer;
   World sea;
   World hills;
+  MenuEngine menuEngine;
+  Vector2f menuMsgLoc;
   Viewport& viewport;
 
   std::vector<SmartSprite*> sprites;
